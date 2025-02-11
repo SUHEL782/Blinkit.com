@@ -8,7 +8,7 @@ connectDB();
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Your application is running!');
 });
 
 app.listen(3001, () => {
